@@ -1,5 +1,6 @@
 # ExpandLayout
-可拓展缩放布局
+可拓展缩放布局 [![](https://jitpack.io/v/ShowMeThe/ExpandLayout.svg)](https://jitpack.io/#ShowMeThe/ExpandLayout)
+
 ## GIF:
 <img src="https://github.com/ShowMeThe/ExpandLayout/blob/master/gif/2020517.gif" alt = "gif" width = "200"/> 
 
@@ -49,4 +50,23 @@
     
 ```
 ### 注意留意布局过度绘制问题，因为两个都是ViewGroup来的
+
+### Dependency
+
+
+```
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+dependencies {
+	  implementation 'com.github.ShowMeThe:ExpandLayout:v1.0'
+	}
+ 
+```
+
 
