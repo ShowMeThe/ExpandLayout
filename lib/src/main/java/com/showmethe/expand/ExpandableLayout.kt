@@ -8,15 +8,10 @@ import android.content.res.Configuration
 import android.os.Bundle
 import android.os.Parcelable
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
-import android.view.ViewTreeObserver
-import android.view.animation.AnticipateOvershootInterpolator
-import android.view.animation.LinearInterpolator
 import android.widget.FrameLayout
 import androidx.core.view.children
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import java.text.FieldPosition
 import kotlin.math.roundToInt
 
 
