@@ -1,5 +1,17 @@
 # ExpandLayout
-可拓展缩放布局
+可拓展缩放布局 [![](https://jitpack.io/v/ShowMeThe/ExpandLayout.svg)](https://jitpack.io/#ShowMeThe/ExpandLayout)
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+dependencies {
+	        implementation 'com.github.ShowMeThe:ExpandLayout:v1.0'
+	}
+```
 
 ## GIF:
 <img src="https://github.com/ShowMeThe/ExpandLayout/blob/master/gif/2020517.gif" alt = "gif" width = "200"/> 
